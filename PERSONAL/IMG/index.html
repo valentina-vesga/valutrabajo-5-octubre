@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--PROGRAMACION VALENTINA VESGA-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>VALENTINA VESGA MARTINEZ</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <!--barra de navegacion-->
+<nav>
+  <!--contenedor logo-->
+  <div class="logo">
+    <a href="#">brandix-evacreativo</a>
+  </div>
+  <!--fin contenedor logo-->
+  <!--inicio de menu web-->
+  <div>
+   <ul class="nav-links">
+     <li><a href="#">home</a></li>
+     <li><a href="#">quien soy</a></li>
+     <li><a href="#">portafolio</a></li>
+     <li><a href="#">contacto</a></li>
+   </ul>
+ </div>
+</nav>
+<!--fin menu web-->
+<section class="home"></section>
+<div class="text">
+  <p><h2>SOBRE MI</h2>
+   <p>Chica nacida en floridablanca santander, colombia, estudiante de diseño grafico en la universidad de investigacion y desarrollo UDI, voyn en sexto semestre,me quiero especilizar en la creacion de identidades visuales de las empresas,community manager,etc todo lo de la carrera me ha encantando.....Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<!--area de java-->
+<script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+</script>
+
+  </body>
+</html>
